@@ -1,0 +1,36 @@
+input{
+    width: 50px;
+    margin: 10px;
+}
+
+form, p {
+    margin: 25px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
+
+@media only screen and (min-height: 600px) {
+    body{
+      font-size: 24px;
+    }
+}
+
+@media only screen and (min-height: 960px) {
+    body {
+        font-size: 48px;
+    }
+}
